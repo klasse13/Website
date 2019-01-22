@@ -13,23 +13,33 @@
   <body>
     <nav> <!-- https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp -->
       <div class="topnav" id="myTopnav">
-          <a href="https://klasse13.github.io/Website/index.html" class="active">Home</a>
-          <a href="https://klasse13.github.io/Website/themen.html">Themen</a>
-          <a href="https://klasse13.github.io/Website/material.html">Material</a>
-          <a href="https://klasse13.github.io/Website/about.html">About</a>
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
         <div class="dropdown">
           <button class="dropbtn">Dropdown 
             <i class="fa fa-caret-down"></i>
           </button>
-        <div class="dropdown-content">
-          <a href="#">https://klasse13.github.io/Website/</a>
-          <a href="#">https://klasse13.github.io/Website/</a>
-          <a href="#">https://klasse13.github.io/Website/</a>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>  
+          </div> 
+          <a href="#about">About</a>
+          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
-      </div> 
-        <a href="#about">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-      </div> 
+        <div style="padding-left:16px">
+        </div>
+        <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+      </script>
     </nav>
     <header>  
     
