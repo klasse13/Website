@@ -106,9 +106,9 @@ main {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {position: sticky;}
   .topnav.responsive .icon {
-    position: absolute;
+    position: sticky;
     right: 0;
     top: 0;
   }
@@ -118,7 +118,7 @@ main {
     text-align: left;
   }
   .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown-content {position: sticky;}
   .topnav.responsive .dropdown .dropbtn {
     display: block;
     width: 100%;
