@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Playfair+Display:900|Open+Sans');
 
 /* Anfang Navbar CSS */
-body {margin:0;font-family:Arial}
+body {
+  margin:0;
+  font-family:Arial
+}
 
 .topnav {
   overflow: hidden;
