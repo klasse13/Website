@@ -212,21 +212,8 @@ body {
 
 /*header*/
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://nous.network/wp-content/uploads/2016/06/NOUS-News-Psychologie.jpg");
+  width: 100%;
   height: 15%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
 }
 /*Ende vom Header*/
 
