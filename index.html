@@ -11,36 +11,6 @@
     <title>Pädagogik und Psychologie Materialsammlung</title>
   </head>
   <body>
-    <nav> <!-- https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp -->
-      <div class="topnav" id="myTopnav">
-        <a href="#home" class="chosen">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about" style="float: right">About</a>
-        <div class="dropdown">
-          <button class="dropbtn">Dropdown 
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>  
-          </div> 
-          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-        </div>
-        <div style="padding-left:16px">
-        </div>
-        <script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-      </script>
-    </nav>
     <header>  
       <div class="hero-image">
         <div class="hero-text">
@@ -51,6 +21,36 @@ function myFunction() {
       </div>
     </header>
     <main>
+      <nav> <!-- https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp -->
+        <div class="topnav" id="myTopnav">
+          <a href="#home" class="chosen">Home</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about" style="float: right">About</a>
+          <div class="dropdown">
+            <button class="dropbtn">Dropdown 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>  
+            </div> 
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+          <div style="padding-left:16px">
+        </div>
+        <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+        </script>
+      </nav>
       <section>
         <div class="slideshow-container">
           <div class="mySlides fade">
