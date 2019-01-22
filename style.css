@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Playfair+Display:900|Open+Sans');
 
 .header {
-  background-image: url(http://nous.network/wp-content/uploads/2016/06/NOUS-News-Psychologie.jpg) no-repeat;
+  background-image: url(http://nous.network/wp-content/uploads/2016/06/NOUS-News-Psychologie.jpg);
   background-size: cover;
   height: 150px;
   width: 100%
 }
 
 main { 
-  margin-top: 15%;
+  margin-top: 0%;
 }
 
 /* Anfang Navbar CSS */
