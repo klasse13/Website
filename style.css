@@ -182,15 +182,10 @@ body {
 /*header*/
 
 .header {
-  with: 100%;
+  width: 100%;
   height: 15%;
   overflow: hidden;
 } 
-
-.hero-image {
-  width: 
-  height: 
-}
 /*Ende vom Header*/
 
 /*Anfang Akkordeon.css*/
