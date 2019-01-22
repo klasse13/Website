@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Playfair+Display:900|Open+Sans');
 
+main { 
+  margin-top: 15%;
+}
+
 /* Anfang Navbar CSS */
 body {
   margin:0;
@@ -208,8 +212,8 @@ body {
 
 /*header*/
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
-  height: 50%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://nous.network/wp-content/uploads/2016/06/NOUS-News-Psychologie.jpg");
+  height: 15%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -222,22 +226,6 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-}
-
-.hero-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
-  text-align: center;
-  cursor: pointer;
-}
-
-.hero-text button:hover {
-  background-color: #555;
   color: white;
 }
 /*Ende vom Header*/
