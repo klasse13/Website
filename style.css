@@ -385,6 +385,6 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-  width: 100%;
+  width: 25%;
 }
 /*Ende animierte Searchbar.css*/
