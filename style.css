@@ -254,20 +254,18 @@ h1 {
   font-weight: 100;
 }
 
-h2 {
+h3 {
+  font-size: 26px;
   line-height: 34px;
   font-weight: 300;
   letter-spacing: 1px;
   display: block;
+  margin: 0;
   cursor: pointer;
   border: 1px solid #ddd; /* Add a border*/
-  margin-top: -1px; /* Prevent double borders */
   background-color: #f6f6f6; /* Grey background color */
   padding: 12px; /* Add some padding */
-  text-decoration: none; /* Remove default text underline */
-  font-size: 18px; /* Increase the font-size */
   color: black; /* Add a black text color */
-  display: block; /* Make it into a block element to fill the whole list */
 }
 
 p {
@@ -318,9 +316,10 @@ ul li i {
 ul li i:before, ul li i:after {
   content: "";
   position: absolute;
-  background-color: #ff6873;
+  background-color:	 #000000;
   width: 3px;
   height: 9px;
+  right: 30px;
 }
 ul li i:before {
   transform: translate(-2px, 0) rotate(45deg);
@@ -401,7 +400,7 @@ input[type=text]:focus {
   margin: 0;
 }
 
-#myUL li div {
+#myUL li a {
   border: 1px solid #ddd; /* Add a border*/
   margin-top: -1px; /* Prevent double borders */
   background-color: #f6f6f6; /* Grey background color */
