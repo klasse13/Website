@@ -385,7 +385,7 @@ ul li input[type=checkbox]:checked ~ i:after {
   background-color: #ccc;
 }
 
-.vertical-menu p.active {
+.vertical-menu a.active {
   background-color: #4CAF50;
   color: white;
 }
