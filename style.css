@@ -15,10 +15,6 @@ body {
   width: 100%
 }
 
-main { 
-  margin-top: 0%;
-}
-
 /* Anfang Navbar CSS */
 .topnav {
   overflow: hidden;
@@ -250,10 +246,6 @@ main {
   }
 }
 
-h1, h2 {
-  color: #ff6873;
-}
-
 h1 {
   text-transform: uppercase;
   font-size: 36px;
@@ -274,7 +266,6 @@ h2 {
 }
 
 p {
-  color: rgba(48, 69, 92, 0.8);
   font-size: 17px;
   line-height: 26px;
   letter-spacing: 1px;
