@@ -370,7 +370,7 @@ ul li input[type=checkbox]:checked ~ i:after {
 
 /*Anfang vertikales Menü.css*/
 .vertical-menu {
-  width: 200px;
+  width: 10%;
 }
 
 .vertical-menu a {
