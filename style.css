@@ -368,25 +368,23 @@ ul li input[type=checkbox]:checked ~ i:after {
 }
 /*Ende Akkordeon.css*/
 
-/*Anfang vertikales Menü.css*/
-.vertical-menu {
-  width: 10%;
+/*Anfang animierte Searchbar.css*/
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
 }
 
-.vertical-menu a {
-  background-color: #eee;
-  color: black;
-  display: block;
-  padding: 12px;
-  text-decoration: none;
+input[type=text]:focus {
+  width: 100%;
 }
-
-.vertical-menu a:hover {
-  background-color: #ccc;
-}
-
-.vertical-menu a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-/*Ende vertikales Menü.css*/
+/*Ende animierte Searchbar.css*/
