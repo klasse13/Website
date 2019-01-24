@@ -411,3 +411,47 @@ input[type=text]:focus {
   display: block; /* Make it into a block element to fill the whole list */
 }
 /*Ende animierte Searchbar.css*/
+
+/*Anfang Galerie.css*/
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+  
+  padding: 20px;
+  font-family: Arial;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #f3f3f3;
+  padding: 10px;
+}
+/*Ende Galerie.css*/
