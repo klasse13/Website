@@ -419,7 +419,6 @@ input[type=text]:focus {
 
 /* Center website */
 .main {
-  max-width: 1000px;
   margin: auto;
   padding: 20px;
   font-family: Arial;
