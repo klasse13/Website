@@ -40,6 +40,29 @@ function myFunction() {
   }
 }
       </script>
+      <section style="padding-left:16px">
+        <form>
+          <input type="text" id="myInput" name="search" onkeyup="aFunction()" placeholder="Search...">
+        </form>
+        <br>
+        <script>
+function aFunction() {
+    var input, filter, div, h4, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    div = document.getElementByClass("main");
+    div = div.getElementsByTagName("div");
+    for (i = 0; i < li.length; i++) {
+        h4 = div[i].getElementsByTagName("h4")[0];
+        txtValue = h4.textContent || h4.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            div[i].style.display = "";
+        } else {
+            div[i].style.display = "none";
+        }
+    }
+}
+        </script>
       <section style="padding-left:16px; padding-right:16px">
         <h2>Videos</h2>
         <hr>
