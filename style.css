@@ -579,4 +579,10 @@ img.hover-shadow {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* Position the "next button" to the right */
+.forward {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
 /*Ende Definitionen.css*/
