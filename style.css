@@ -502,15 +502,15 @@ input[type=text]:focus {
   cursor: pointer;
 }
 
-.mySlides1 {
+.mySlidesA {
   display: none;
 }
 
-.mySlides2 {
+.mySlidesB {
   display: none;
 }
 
-.mySlides3 {
+.mySlidesC {
   display: none;
 }
 
