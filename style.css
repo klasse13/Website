@@ -252,6 +252,8 @@ h1 {
   line-height: 42px;
   letter-spacing: 3px;
   font-weight: 100;
+  margin: auto;
+  text-align: center;
 }
 
 h3 {
@@ -546,3 +548,12 @@ img.hover-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /*Ende Videoplayer.css*/
+
+/*Anfang Definitionen.css*/
+.card {
+    background-color: #f3f3f3;
+    border-style:groove;
+    width: 1000px;
+    height: 350px;
+}
+/*Ende Definitionen.css*/
