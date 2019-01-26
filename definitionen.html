@@ -19,8 +19,8 @@
       <div class="topnav" id="myTopnav">  <!-- https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp -->
         <a href="https://klasse13.github.io/Website/">Home</a>
         <a href="https://klasse13.github.io/Website/themen.html">Themen</a>
-        <a href="https://klasse13.github.io/Website/material.html">Material</a>
-        <a href="https://klasse13.github.io/Website/definitionen.html" class="chosen">Definitionen</a>
+        <a href="https://klasse13.github.io/Website/material.html" class="chosen">Material</a>
+        <a href="https://klasse13.github.io/Website/definitionen.html">Definitionen</a>
         <a href="https://klasse13.github.io/Website/about.html">About</a>
         <a href="https://klasse13.github.io/Website/search.html">Search</a>
         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
@@ -40,8 +40,131 @@ function myFunction() {
   }
 }
       </script>
-      <section>
-
+      <section style="padding-left:16px; padding-right:16px">
+        <h2>Kapitel 3&4</h2>
+        <hr>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 16</div>
+            <div class="card">
+              <h1>Definition></h1>
+            </div>
+            <div class="text">Caption Text</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 16</div>
+            
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 16</div>
+            
+            <div class="text">Caption Three</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 16</div>
+            
+            <div class="text">Caption Text</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 16</div>
+            
+            <div class="text">Caption Two</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">6 / 16</div>
+            
+            <div class="text">Caption Three</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">7 / 16</div>
+            
+            <div class="text">Caption Text</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">8 / 16</div>
+            
+            <div class="text">Caption Two</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">9 / 16</div>
+            
+            <div class="text">Caption Three</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">10 / 16</div>
+            
+            <div class="text">Caption Text</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">11 / 16</div>
+            
+            <div class="text">Caption Two</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">12 / 16</div>
+            
+            <div class="text">Caption Three</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">13 / 16</div>
+            
+            <div class="text">Caption Text</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">14 / 16</div>
+            
+            <div class="text">Caption Two</div>
+          </div>
+          <div class="mySlides fade">
+            <div class="numbertext">15 / 16</div>
+            
+            <div class="text">Caption Three</div>
+          </div>          
+          <div class="mySlides fade">
+            <div class="numbertext">16 / 16</div>
+            
+            <div class="text">Caption Three</div>
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+        </script>
+        </script>
+      </section>
+      <section style="padding-left:16px; padding-right:16px">
+        <h2>Kapitel 12</h2>
+        <hr>
+        
+      </section>
+      <section style="padding-left:16px; padding-right:16px">
+        <h2>Kapitel 13</h2>
+        <hr>
+        
       </section>
       <section>
       
