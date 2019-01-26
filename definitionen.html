@@ -106,61 +106,61 @@ function showSlidesA(nA) {
         <h2>Kapitel 12</h2>
         <hr>
         <div class="slideshow-container">
-          <div class="mySlides2 fade">
+          <div class="mySlidesB fade">
             <div class="numbers">1 / 16</div>
             <div class="card">
               <h1 class="centered">Definition</h1>
             </div>
             <div class="text">Caption Text</div>
           </div>
-          <div class="mySlides2 fade">
+          <div class="mySlidesB fade">
             <div class="numbers">1 / 16</div>
             <div class="card">
               <h2 class="centered">Erklärung</h2>
             </div>
             <div class="text">Caption Text</div>
           </div>
-          <div class="mySlides2 fade">
+          <div class="mySlidesB fade">
             <div class="numbers">2 / 16</div>
             <div class="card">
               <h1 class="centered">Definition</h1>
             </div>
             <div class="text">Caption Text</div>
           </div>
-          <div class="mySlides2 fade">
+          <div class="mySlidesB fade">
             <div class="numbers">2 / 16</div>
             <div class="card">
               <h2 class="centered">Erklärung</h2>
             </div>
             <div class="text">Caption Text</div>
           </div>
-          <a class="back" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+          <a class="back" onclick="plusSlidesB(-1)">&#10094;</a>
+          <a class="forward" onclick="plusSlidesB(1)">&#10095;</a>
         </div>
         <br>
         <script>
-var slideIndex2 = 1;
-showSlides2(slideIndex2);
-function plusSlides2(n2) {
-  showSlides2(slideIndex2 += n2);
+var slideIndexB = 1;
+showSlidesB(slideIndexB);
+function plusSlidesB(nB) {
+  showSlidesB(slideIndexB += nB);
 }
-function currentSlide2(n2) {
-  showSlides2(slideIndex2 = n2);
+function currentSlideB(nB) {
+  showSlidesB(slideIndexB = nB);
 }
-function showSlides2(n2) {
-  var i2;
-  var slides2 = document.getElementsByClassName("mySlides2");
-  var dots = document.getElementsByClassName("dot");
-  if (n2 > slides.length) {slideIndex2 = 1}    
-  if (n2 < 1) {slideIndex2 = slides2.length}
-  for (i2 = 0; i2 < slides2.length; i2++) {
-      slides2[i2].style.display = "none";  
+function showSlidesB(nB) {
+  var iB;
+  var slidesB = document.getElementsByClassName("mySlidesB");
+  var dotsB = document.getElementsByClassName("dotB");
+  if (nB > slidesB.length) {slideIndexB = 1}    
+  if (nB < 1) {slideIndexB = slidesB.length}
+  for (iB = 0; iB < slidesB.length; iB++) {
+      slidesB[iB].style.display = "none";  
   }
-  for (i2 = 0; i2 < dots.length; i2++) {
-      dots[i2].className = dots[i2].className.replace(" active", "");
+  for (iB = 0; iB < dotsB.length; iB++) {
+      dotsB[iB].className = dotsB[iB].className.replace(" active", "");
   }
-  slides2[slideIndex2-1].style.display = "block";  
-  dots[slideIndex2-1].className += " active";
+  slidesB[slideIndexB-1].style.display = "block";  
+  dotsB[slideIndexB-1].className += " active";
 }
         </script>
       </section>
@@ -168,61 +168,61 @@ function showSlides2(n2) {
         <h2>Kapitel 13</h2>
         <hr>
         <div class="slideshow-container">
-          <div class="mySlides3 fade">
+          <div class="mySlidesC fade">
             <div class="numbers">1 / 16</div>
             <div class="card">
               <h1 class="centered">Definition</h1>
             </div>
             <div class="text">Caption Text</div>
           </div>
-          <div class="mySlides3 fade">
+          <div class="mySlidesC fade">
             <div class="numbers">1 / 16</div>
             <div class="card">
               <h2 class="centered">Erklärung</h2>
             </div>
             <div class="text">Caption Text</div>
           </div>
-          <div class="mySlides3 fade">
+          <div class="mySlidesC fade">
             <div class="numbers">2 / 16</div>
             <div class="card">
               <h1 class="centered">Definition</h1>
             </div>
             <div class="text">Caption Text</div>
           </div>
-          <div class="mySlides3 fade">
+          <div class="mySlidesC fade">
             <div class="numbers">2 / 16</div>
             <div class="card">
               <h2 class="centered">Erklärung</h2>
             </div>
             <div class="text">Caption Text</div>
           </div>
-          <a class="back" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+          <a class="back" onclick="plusSlidesC(-1)">&#10094;</a>
+          <a class="forward" onclick="plusSlidesC(1)">&#10095;</a>
         </div>
         <br>
         <script>
-var slideIndex3 = 1;
-showSlides3(slideIndex3);
-function plusSlides3(n3) {
-  showSlides3(slideIndex3 += n3);
+var slideIndexC = 1;
+showSlidesC(slideIndexC);
+function plusSlidesC(nC) {
+  showSlidesC(slideIndexC += nC);
 }
-function currentSlide3(n3) {
-  showSlides3(slideIndex3 = n3);
+function currentSlideC(nC) {
+  showSlidesC(slideIndexC = nC);
 }
-function showSlides3(n3) {
-  var i3;
-  var slides3 = document.getElementsByClassName("mySlides3");
-  var dots3 = document.getElementsByClassName("dot");
-  if (n3 > slides3.length) {slideIndex3 = 1}    
-  if (n3 < 1) {slideIndex3 = slides3.length}
-  for (i3 = 0; i3 < slides3.length; i3++) {
-      slides3[i3].style.display = "none";  
+function showSlidesC(nC) {
+  var iC;
+  var slidesC = document.getElementsByClassName("mySlidesC");
+  var dotsC = document.getElementsByClassName("dotC");
+  if (nC > slidesC.length) {slideIndexC = 1}    
+  if (nC < 1) {slideIndexC = slidesC.length}
+  for (iC = 0; iC < slidesC.length; iC++) {
+      slidesC[iC].style.display = "none";  
   }
-  for (i3 = 0; i3 < dots.length; i++) {
-      dots[i3].className = dots[i3].className.replace(" active", "");
+  for (iC = 0; iC < dotsC.length; iC++) {
+      dotsC[iC].className = dotsC[iC].className.replace(" active", "");
   }
-  slides3[slideIndex3-1].style.display = "block";  
-  dots[slideIndex3-1].className += " active";
+  slidesC[slideIndexC-1].style.display = "block";  
+  dotsC[slideIndexC-1].className += " active";
 }
         </script>
       </section>
