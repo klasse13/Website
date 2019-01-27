@@ -424,6 +424,7 @@ input[type=text]:focus {
   margin: auto;
   padding: 20px;
   font-family: Arial;
+  display: table;
 }
 
 .row {
@@ -440,6 +441,7 @@ input[type=text]:focus {
 .column {
   float: left;
   width: 20%;
+  display: table-cell;
 }
 
 /* Clear floats after rows */ 
