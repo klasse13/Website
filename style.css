@@ -620,18 +620,18 @@ img.hover-shadow {
 
 /*Anfang Links*/
 
-a:link {
+.section a:link {
     color: black;
 }
 
-a:visited {
+.section a:visited {
     color: black;
 }
 
-a:hover {
+.section a:hover {
     color: #4caf50;
 }
 
-a:active {
+.section a:active {
     color: #4caf50;
 }
