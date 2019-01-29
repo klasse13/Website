@@ -617,3 +617,21 @@ img.hover-shadow {
   top: 0;
 }
 /*Ende Definitionen.css*/
+
+/*Anfang Links*/
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #4caf50;
+}
+
+a:active {
+    color: #4caf50;
+}
