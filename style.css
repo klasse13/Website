@@ -142,6 +142,8 @@ body {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  border-style: solid;
+  border-color: gray;
 }
 
 /* Next & previous buttons */
@@ -152,7 +154,7 @@ body {
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: #4CAF50;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
